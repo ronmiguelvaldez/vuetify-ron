@@ -43,7 +43,6 @@
       color="primary"
       dark
       src="sunset.jpg"
-      scroll-target="#scrolling-techniques-2"
       
     >
       <template v-slot:img="{ props }">
@@ -87,6 +86,7 @@
       items: [
           { title: 'Todo', icon: 'mdi-format-list-checks', to: '/' },
           { title: 'About', icon: 'mdi-information', to: '/about' },
+          { title: 'Calc', icon: 'mdi-calculator', to: '/calc'}
         ], 
     }),
   }
