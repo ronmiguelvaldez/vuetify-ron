@@ -70,7 +70,10 @@
         <v-icon>mdi-dots-vertical</v-icon>
       </v-btn>
      
-      <v-switch class="mt-5"></v-switch>
+      <v-switch class="mt-5"
+      flat
+      >
+    </v-switch>
     </v-app-bar>
 
     <v-main>
@@ -85,8 +88,7 @@
       drawer: null,
       items: [
           { title: 'Todo', icon: 'mdi-format-list-checks', to: '/' },
-          { title: 'About', icon: 'mdi-information', to: '/about' },
-          { title: 'Calc', icon: 'mdi-calculator', to: '/calc'}
+          { title: 'About', icon: 'mdi-information', to: '/about' }
         ], 
     }),
   }
