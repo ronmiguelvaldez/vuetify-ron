@@ -58,17 +58,44 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }"  > 
+          <v-btn icon
+          dark
+          v-bind="attrs"
+          v-on="on">
+            <v-icon>mdi-magnify</v-icon>
+          </v-btn>
+        </template>
+        <span>Search</span>
+      </v-tooltip>
 
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
-      </v-btn>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs}" >
+          <v-btn icon
+          dark
+          v-bind="attrs"
+          v-on="on">
+            <v-icon>mdi-heart</v-icon>
+          </v-btn>
+        </template>
+        <span>Favorites</span>
+      </v-tooltip>
 
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs}" >
+          <v-btn icon
+          dark
+          v-bind="attrs"
+          v-on="on">
+            <v-icon>mdi-dots-vertical</v-icon>
+          </v-btn>
+        </template>
+        <span>More</span>
+      </v-tooltip>
+
+
+
      
       <v-switch class="mt-5"
       flat
