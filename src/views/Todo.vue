@@ -11,7 +11,6 @@
     </v-autocomplete>
     <v-btn color="primary" class="mr-1" @click="addList">Add List</v-btn>
   </v-form>
-      
   </div>
 </template>
 

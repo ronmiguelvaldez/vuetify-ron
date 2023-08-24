@@ -88,7 +88,8 @@
       drawer: null,
       items: [
           { title: 'Todo', icon: 'mdi-format-list-checks', to: '/' },
-          { title: 'About', icon: 'mdi-information', to: '/about' }
+          { title: 'About', icon: 'mdi-information', to: '/about' },
+          { title: 'Hover', icon: 'mdi-reflect-horizontal', to: '/hover'}
         ], 
     }),
   }
